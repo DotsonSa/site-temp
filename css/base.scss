@@ -1,0 +1,14 @@
+@import 'normalize.css';
+
+@mixin clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+     }
+}
+
+body {
+  color:black;
+}
+
